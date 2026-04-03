@@ -49,6 +49,10 @@ Neo Code 是官方原版的一个**原生兼容拦截补丁版 (Patch Fork)**。
 
 ---
 
-## 📜 版权申明与后续协议
-* 本项目专为兼容性研究与技术填补而设立。所有的代理、大语言模型处理、MCP实现等**核心技术及 IP 权利完全归属 [Anthropic PBC] 所有**。
-* 请继续遵守官方服务协议与许可条款：详见 [Anthropic Legal and Compliance](https://code.claude.com/docs/en/legal-and-compliance)。
+## 📜 版权申明与开源协议
+
+本项目（含衍生代码劫持补丁 `patch-cli.mjs` 等改造部分）基于最宽松的 **MIT License** 开源，详见仓库下的 `LICENSE` 文件。
+
+> **⚠️ 注意：** 
+> 本项目专为兼容性研究与技术填补而设立。所有原版 `cli.js` 中包含的代理逻辑、大语言模型处理、MCP实现等**底层核心技术及源二进制体的 IP 权利完全归属 [Anthropic PBC] 所有**。
+> 请同时遵守官方服务协议与许可条款：详见 [Anthropic Legal and Compliance](https://code.claude.com/docs/en/legal-and-compliance)。
